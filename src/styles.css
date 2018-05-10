@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #404C51;
+    font-size: 15px;
+    margin: 0;
+}
+
+.ui-inputtext.ui-state-focus, .ui-inputtext:focus {
+    box-shadow: none;
+    border-color:#1f89ce !important;
+  }
+
+label {
+    font-weight: 500;
+}
+
+@media (min-width: 1200px){
+    .container {
+        width: 1170px;
+        margin: 0 auto; /* Centralizar !!! */
+    }
+}
+
+.col-valor {
+    text-align: right;
+}
+
+.col-data {
+    text-align: center;
+}
+
+.w-120 {
+    width: 120px;
+}
+
+.w-90 {
+    width: 90px;
+}
+
+th {
+    font-weight: 500;
+}
