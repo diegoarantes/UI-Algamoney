@@ -7,6 +7,14 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+  
+a:hover, a:focus {
+    text-decoration: underline;
+}
+
 .ui-inputtext.ui-state-focus, .ui-inputtext:focus {
     box-shadow: none;
     border-color:#1f89ce !important;
