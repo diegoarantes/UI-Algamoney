@@ -7,6 +7,10 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-weight: 500;
+}
+
 a {
     text-decoration: none;
 }
@@ -18,7 +22,7 @@ a:hover, a:focus {
 .ui-inputtext.ui-state-focus, .ui-inputtext:focus {
     box-shadow: none;
     border-color:#1f89ce !important;
-  }
+}
 
 label {
     font-weight: 500;
